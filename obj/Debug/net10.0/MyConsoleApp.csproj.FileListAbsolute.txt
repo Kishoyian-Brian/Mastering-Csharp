@@ -12,3 +12,4 @@
 /home/brian/Dev/DotNet/Console-App/MyConsoleApp/obj/Debug/net10.0/MyConsoleApp.pdb
 /home/brian/Dev/DotNet/Console-App/MyConsoleApp/obj/Debug/net10.0/MyConsoleApp.genruntimeconfig.cache
 /home/brian/Dev/DotNet/Console-App/MyConsoleApp/obj/Debug/net10.0/ref/MyConsoleApp.dll
+/home/brian/Dev/DotNet/Console-App/MyConsoleApp/obj/Debug/net10.0/MyConsoleApp.sourcelink.json

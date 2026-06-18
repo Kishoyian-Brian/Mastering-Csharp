@@ -1,7 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using MyConsoleApp;
 
-DataTypes.Run();
+//DataTypes.Run();
+
+StringChars.Run();
 
 
 
