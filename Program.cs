@@ -3,7 +3,9 @@ using MyConsoleApp;
 
 //DataTypes.Run();
 
-StringChars.Run();
+//StringChars.Run();
+
+Conversion.Run();
 
 
 
