@@ -5,7 +5,11 @@ using MyConsoleApp;
 
 //StringChars.Run();
 
-Conversion.Run();
+//Conversion.Run();
+
+//Bool.Run();
+
+Operations.Run();
 
 
 
