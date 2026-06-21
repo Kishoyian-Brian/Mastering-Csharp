@@ -1,18 +1,18 @@
-﻿// See https://aka.ms/new-console-template for more information
-using MyConsoleApp;
+﻿using MyConsoleApp;
 
-//DataTypes.Run();
+// Uncomment one lesson to run it:
+// DataTypes.Run();
+// StringChars.Run();
+// Conversion.Run();
+// Bool.Run();
+// Operations.Run();
+// Modulus.Run();
+// Var.Run();
+// Constants.Run();
+// Exercise.Run();
+// ConsoleIO.Run();
+If.Run();
 
-//StringChars.Run();
-
-//Conversion.Run();
-
-//Bool.Run();
-
-Operations.Run();
-
-
-
-
-
+Console.WriteLine();
+Console.WriteLine("Press Enter to exit...");
 Console.ReadLine();
