@@ -11,10 +11,19 @@
 // Constants.Run();
 // Exercise.Run();
 // ConsoleIO.Run();
- If.Run();
+// If.Run();
 // Switch.Run();
 // For.Run();
 // While.Run();
+//ConditionOperator.Run();
+//Format.Run();
+//TryParse.Run();
+
+//ExerciseTimetable.Run();
+
+//FizzBuzz.Run();
+
+StringFormatting.Run();
 
 Console.WriteLine();
 Console.WriteLine("Press Enter to exit...");
