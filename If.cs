@@ -38,24 +38,32 @@ namespace MyConsoleApp
             string num1Input = Console.ReadLine();
             int numA = Convert.ToInt32(num1Input);
 
-            Console.Write("Enter the first number: ");
+            Console.Write("Enter the second number: ");
             string num2Input = Console.ReadLine();
             int numB = Convert.ToInt32(num2Input);
+            Console.WriteLine();
 
             int answer = numA * numB;
+            int actualAnswer = 0;
 
-            Console.Write("Value of " + numA + " * " + numB  + " is :"  );
-            string answerInput = Console.ReadLine();
-            int actualAnswer = Convert.ToInt32(answerInput); 
+            Console.Write("Whats the value of " + numA + " * " + numB + " ? :");
+            Console.WriteLine();
 
-            if(answer == actualAnswer)
+            while (answer != actualAnswer)
             {
-                Console.Write("Congratulation!");
+                string answerInput = Console.ReadLine();
+                actualAnswer = Convert.ToInt32(answerInput);
+
+                if (answer != actualAnswer)
+                {
+                    Console.Write("Almost there try again: ");
+                }
+                
             }
-            else
-            {
-                Console.Write("Almost there. Try Again!!");
-            }
+
+         
+            Console.WriteLine();
+            Console.WriteLine("Well Done!");
         }
     }
 }
