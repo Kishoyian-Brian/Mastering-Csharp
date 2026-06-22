@@ -23,7 +23,16 @@
 
 //FizzBuzz.Run();
 
-StringFormatting.Run();
+//StringFormatting.Run();
+
+//StringInterpolation.Run();
+
+//Concanation.Run();
+
+//EmptyString.Run();
+//EqualStrings.Run();
+//Looing.Run();
+ExercisePrintInReverse.Run();
 
 Console.WriteLine();
 Console.WriteLine("Press Enter to exit...");
