@@ -32,7 +32,15 @@
 //EmptyString.Run();
 //EqualStrings.Run();
 //Looing.Run();
-ExercisePrintInReverse.Run();
+//ExercisePrintInReverse.Run();
+//Arrays.Run();
+//Triangles.Run();
+//Sort.Run();
+//ArrayReverse.Run();
+//ArrayClearing.Run();
+//ArrayIndex.Run();
+//Lists.Run();
+Dictionary.Run();
 
 Console.WriteLine();
 Console.WriteLine("Press Enter to exit...");
