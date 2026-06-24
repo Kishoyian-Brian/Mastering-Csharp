@@ -54,7 +54,9 @@
 //Excetions.Run();
 
 //Debugging.Run();
-ExerciseFIxLogicError.Run();
+//xerciseFIxLogicError.Run();
+//Structure.Run();
+Constructor.Run();
 
 
 
