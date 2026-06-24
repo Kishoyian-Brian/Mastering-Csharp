@@ -1,44 +1,52 @@
-// using System;
-// using System.Collections.Generic;
-// using System.Linq;
-// using System.Threading.Tasks;
+using System;
+using System.Collections.Generic;
 
-// namespace MyConsoleApp
-// {
-//     public class Out
-//     {
-//         public static void Show()
-//         {
-//             int num =0;
-//            Test(out num);
-//            System.Console.WriteLine(num);
-//             //System.Console.WriteLine(success);
+namespace MyConsoleApp
+{
+    public class Out
+    {
+        public static void Show()
+        {
+            int num = 0;
+            Test(out num);
+            System.Console.WriteLine(num);
 
-//             //int.TryParse("123", out int result)
+            List<string> shoppingList = new List<string> { "bread", "milk", "eggs" };
+            if (FindInList("milk", shoppingList, out int index))
+            {
+                System.Console.WriteLine($"Found milk at index {index}");
+            }
+            else
+            {
+                System.Console.WriteLine("Not found");
+            }
+        }
 
-//             //int.TryParse(); 
-//         }
-//         static bool FindInList(string s,List<string> list, out int index)
-//         {
-//             int index = -1;
-//             for (int i = 0; i < shoppingList.Count; i++)
-//             {
-//                 if (shoppingList[i].ToLower().Equals("milk"))
-//                 {
-                    
-//                 }
-//             }
-//         }
-//         bool found = index>-1;
-//         static bool TryParse(string s, out int result)
-//         {
-//             result=0;
-//             return true;
-//         }
-//         static void  Test(out int num)
-//         {
-//             num = 5;
-            
-//         }
-//     }
-// }
+        static bool FindInList(string s, List<string> list, out int index)
+        {
+            index = -1;
+            for (int i = 0; i < list.Count; i++)
+            {
+                if (list[i].ToLower().Equals(s.ToLower()))
+                {
+                    index = i;
+                    break;
+                }
+            }
+
+            bool found = index > -1;
+            return found;
+        }
+
+        static bool TryParse(string s, out int result)
+        {
+            result = 0;
+            return int.TryParse(s, out result);
+        }
+
+        static void Test(out int num)
+        {
+            num = 5;
+        }
+    }
+}

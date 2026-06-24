@@ -7,7 +7,7 @@ namespace MyConsoleApp
 {
     public class Fields
     {
-        class Person
+        public class Person
         {
             private string Name;
             private int Age;
@@ -23,7 +23,7 @@ namespace MyConsoleApp
                     Name = "Inavalid";
                 } */
 
-                Name = !string.IsNullOrEmpty(name) ? Name: "Invalid";
+                Name = !string.IsNullOrEmpty(name) ? name : "Invalid";
 
 
             }
@@ -44,7 +44,7 @@ namespace MyConsoleApp
                 {
                     Age = -1;
                 }*/
-                Age = age > 0 && age <= 150 ? Age: -1;
+                Age = age > 0 && age <= 150 ? age : -1;
             }
 
             public int GetAge()

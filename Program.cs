@@ -49,6 +49,7 @@ using MyConsoleApp;
 //OptionalParameter.Run();
 //Named.Run();
 //Out.Show();
+Scope.Run();
 //Ref.Run();
 //ExerciseAreaOfTriangle.Run();
 //ExerciseSumOfIntInArray.Run();
@@ -59,7 +60,7 @@ using MyConsoleApp;
 //Structure.Run();
 //Constructor.Run();
 //Mehods.Run();
-Fields.Run();
+//Fields.Run();
 
 
 
