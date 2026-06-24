@@ -40,7 +40,23 @@
 //ArrayClearing.Run();
 //ArrayIndex.Run();
 //Lists.Run();
-Dictionary.Run();
+//Dictionary.Run();
+//ExerciseEvenAndOdd.Run();
+//ExerciseArrayOfMultiple.Run();
+//Functions.Run();
+//ReturnTypeFunction.Run();
+//OptionalParameter.Run();
+//Named.Run();
+//Out.Show();
+//Ref.Run();
+//ExerciseAreaOfTriangle.Run();
+//ExerciseSumOfIntInArray.Run();
+//Excetions.Run();
+
+//Debugging.Run();
+ExerciseFIxLogicError.Run();
+
+
 
 Console.WriteLine();
 Console.WriteLine("Press Enter to exit...");
