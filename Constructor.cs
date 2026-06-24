@@ -20,13 +20,13 @@ namespace MyConsoleApp
 
         class Person
         {
-            public string Name ;
-            public int Age ;
+            public string Name;
+            public int Age;
 
             public Person(string name, int age)
             {
-                this.Name=name;
-                this.Age=age;
+                this.Name = name;
+                this.Age = age;
             }
         }
 
@@ -34,7 +34,7 @@ namespace MyConsoleApp
 
         public static void Run()
         {
-            Person person = new Person("Brian",22);
+            Person person = new Person("Brian", 22);
 
             System.Console.WriteLine(person.Name);
             System.Console.WriteLine(person.Age);

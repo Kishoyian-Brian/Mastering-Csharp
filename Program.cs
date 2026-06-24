@@ -1,4 +1,5 @@
-﻿using MyConsoleApp;
+﻿using System.Reflection;
+using MyConsoleApp;
 
 // Uncomment one lesson to run it:
 // DataTypes.Run();
@@ -54,9 +55,11 @@
 //Excetions.Run();
 
 //Debugging.Run();
-//xerciseFIxLogicError.Run();
+//ExerciseFIxLogicError.Run();
 //Structure.Run();
-Constructor.Run();
+//Constructor.Run();
+//Mehods.Run();
+Fields.Run();
 
 
 
